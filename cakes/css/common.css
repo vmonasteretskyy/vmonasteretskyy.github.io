@@ -1,22 +1,22 @@
 /* general */
 @font-face {
     font-family: 'DIN-Round-Pro-Black';
-    src: url('../fonts/din-round-pro-black.otf');
+    src: url('./fonts/din-round-pro-black.otf');
 }
 
 @font-face {
     font-family: 'DIN-Round-Pro-Bold';
-    src: url('../fonts/din-round-pro-bold.otf');
+    src: url('./fonts/din-round-pro-bold.otf');
 }
 
 @font-face {
     font-family: 'DIN-Round-Pro-Light';
-    src: url('../fonts/din-round-pro-light.otf');
+    src: url('./fonts/din-round-pro-light.otf');
 }
 
 @font-face {
     font-family: 'DIN-Round-Pro-Medium';
-    src: url('../fonts/din-round-pro-medium.otf');
+    src: url('./fonts/din-round-pro-medium.otf');
 }
 
 
