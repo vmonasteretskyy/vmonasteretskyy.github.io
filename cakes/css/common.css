@@ -1,31 +1,31 @@
 /* general */
 @font-face {
     font-family: 'DIN-Round-Pro-Black';
-    src: url('../fonts/DIN-Round-Pro-Black.otf');
+    src: url('../fonts/din-round-pro-black.otf');
 }
 
 @font-face {
     font-family: 'DIN-Round-Pro-Bold';
-    src: url('../fonts/DIN-Round-Pro-Bold.otf');
+    src: url('../fonts/din-round-pro-bold.otf');
 }
 
 @font-face {
     font-family: 'DIN-Round-Pro-Light';
-    src: url('../fonts/DIN-Round-Pro-Light.otf');
+    src: url('../fonts/din-round-pro-light.otf');
 }
 
 @font-face {
     font-family: 'DIN-Round-Pro-Medium';
-    src: url('../fonts/DIN-Round-Pro-Medium.otf');
+    src: url('../fonts/din-round-pro-medium.otf');
 }
 
 
 @font-face {
     font-family: 'DIN-Round-Pro-Regular';
-    src: url('../fonts/DINPro.eot');
-    src: url('../fonts/DINPro.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/DINPro.woff') format('woff'),
-        url('../fonts/DINPro.ttf') format('truetype');
+    src: url('../fonts/dinpro.eot');
+    src: url('../fonts/dinpro.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/dinpro.woff') format('woff'),
+        url('../fonts/dinpro.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
