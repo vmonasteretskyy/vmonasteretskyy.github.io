@@ -129,4 +129,12 @@ $(document).ready(function () {
         $('.rating .selected').removeClass('selected');
         $radio.closest('label').addClass('selected');
     });
+
+    var fscrHeight = $('.main-top-section').height();
+    var fullHeight = $(window).height();
+    var btnTop = fullHeight - fscrHeight + 30;
+    $('.main-top-section .vertical-btn').css('bottom', btnTop);
+    if(fullHeight < fscrHeight ) {
+        $('.main-top-section .vertical-btn').css('bottom', '30px');
+    }
 });

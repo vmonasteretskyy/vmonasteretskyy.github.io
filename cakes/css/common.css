@@ -243,15 +243,24 @@ header {
 
 .main-top-section .vertical-btn {
     width: 54px;
-    background-color: #8ADBCD;
+    /* background-color: #8ADBCD; */
+    background-color: #D91D24;
     height: 220px;
     border-radius: 50px;
     text-align: center;
     position: absolute;
-    bottom: 55px;
-    right: 31px;
+    /* bottom: 55px;
+    right: 31px; */
     padding: 15px 0;
     border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    right: 0;
+    left: 0;
+    display: block;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 3;
+    bottom: 30px;
+    transform: translateX(670px);
 }
 
 .main-top-section .vertical-btn span {
@@ -390,7 +399,8 @@ header {
     font-family: 'DIN-Round-Pro-Regular';
 }
 
-.product-block .descr-block a {
+.product-block .descr-block a,
+.product-block .descr-block > span {
     max-width: 224px;
     width: 100%;
     background: #8ADBCD;
@@ -424,7 +434,8 @@ header {
     background-color: #E6C65B;
 }
 
-.product-block .descr-block a img {
+.product-block .descr-block a img,
+.product-block .descr-block > span img {
     margin-right: 20px;
     margin-top: -3px;
 }
@@ -535,7 +546,7 @@ header {
 }
 
 .info-section {
-    padding: 100px 0 44px 0;
+    padding: 100px 30px 44px 30px;
 }
 
 .info-section .pic-block {
@@ -1832,7 +1843,12 @@ footer ul li a:hover {
     font-weight: 400;
     line-height: 0;
 }
-
+.product-block a:hover, .product-block a:focus {
+    text-decoration: none;
+}
+.product-block a:hover .descr-block > span {
+    background-color: #E6C65B;
+}
 /* 
 font-family: 'DIN-Round-Pro-Bold'; 
 font-family: 'DIN-Round-Pro-Black';
