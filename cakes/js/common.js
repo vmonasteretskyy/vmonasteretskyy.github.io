@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('.hits-section .show-moreprod').click(function () {
+    $('.hits-section .show-moreprod.vitr').click(function () {
         $('.hits-section .show-more-product').show();
     });
     // slider main page
@@ -130,11 +130,20 @@ $(document).ready(function () {
         $radio.closest('label').addClass('selected');
     });
 
-    var fscrHeight = $('.main-top-section').height();
-    var fullHeight = $(window).height();
-    var btnTop = fullHeight - fscrHeight + 30;
-    $('.main-top-section .vertical-btn').css('bottom', btnTop);
-    if(fullHeight < fscrHeight ) {
-        $('.main-top-section .vertical-btn').css('bottom', '30px');
-    }
+    // var fscrHeight = $('.main-top-section').height();
+    // var fullHeight = $(window).height();
+    // var btnTop = fullHeight - fscrHeight + 30;
+    // $('.main-top-section .vertical-btn').css('bottom', btnTop);
+    // if (fullHeight < fscrHeight) {
+    //     $('.main-top-section .vertical-btn').css('bottom', '30px');
+    // }
+    // $(window).resize(function () {
+    //     var fscrHeight = $('.main-top-section').height();
+    //     var fullHeight = $(window).height();
+    //     var btnTop = fullHeight - fscrHeight + 30;
+    //     $('.main-top-section .vertical-btn').css('bottom', btnTop);
+    //     if (fullHeight < fscrHeight) {
+    //         $('.main-top-section .vertical-btn').css('bottom', '30px');
+    //     }
+    // });
 });
