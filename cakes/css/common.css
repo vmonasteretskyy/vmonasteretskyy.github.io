@@ -2030,6 +2030,9 @@ footer ul li a:hover {
 main {
     min-height: 500px;
 }
+#back-top, #back-top span {
+    margin-bottom: 0;
+}
 /* 
 font-family: 'DIN-Round-Pro-Bold'; 
 font-family: 'DIN-Round-Pro-Black';

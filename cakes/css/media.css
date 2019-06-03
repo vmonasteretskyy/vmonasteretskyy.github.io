@@ -620,8 +620,8 @@
 
 @media(max-width:1024px) {
     .main-top-section .vertical-btn {
-        bottom: initial;
-        top: 420px;
+        top: initial;
+        bottom: 30px;
     }
 }
 
@@ -2045,7 +2045,7 @@
 
 @media(max-width:575.8px) {
     .main-top-section .vertical-btn {
-        bottom: 60px;
+        bottom: 30px;
         top: initial;
     }
 
