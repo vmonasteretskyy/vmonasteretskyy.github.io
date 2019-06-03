@@ -970,7 +970,10 @@
 }
 
 @media(max-width:767.8px) {
-    
+    .phone-burger.fix-burger {
+        position: fixed;
+        top: 15px;
+    }
     footer>img {
         right: 55px;
     }

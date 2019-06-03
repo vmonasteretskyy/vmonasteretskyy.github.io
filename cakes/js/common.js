@@ -164,6 +164,14 @@ $(document).ready(function () {
     } else {
         $('.header_secton').removeClass('sticky-header');
     }
+
+    if ($(window).scrollTop() > 70) {
+        $('.phone-burger').addClass('fix-burger');
+    } else {
+        $('.phone-burger').removeClass('fix-burger');
+    }
+
+    
 });
 
 $(document).on('scroll', function () {
@@ -171,5 +179,11 @@ $(document).on('scroll', function () {
         $('.header_secton').addClass('sticky-header');
     } else {
         $('.header_secton').removeClass('sticky-header');
+    }
+
+    if ($(window).scrollTop() > 70) {
+        $('.phone-burger').addClass('fix-burger');
+    } else {
+        $('.phone-burger').removeClass('fix-burger');
     }
 });

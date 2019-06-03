@@ -2022,10 +2022,14 @@ footer ul li a:hover {
 .header_secton.sticky-header.open-sthead .cake-cartpic {
     display: none;
 }
+/* cart */
+.cart-section {
+    padding-top: 160px;
+}
 
-
-
-
+main {
+    min-height: 500px;
+}
 /* 
 font-family: 'DIN-Round-Pro-Bold'; 
 font-family: 'DIN-Round-Pro-Black';
