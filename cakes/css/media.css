@@ -9,6 +9,9 @@
 }
 
 @media(max-width:1370.8px) {
+    .cart-section {
+        padding-top: 150px;
+    }
     .sticky-header.open-sthead .header-logo {
         top: 0;
     }
@@ -541,6 +544,9 @@
 }
 
 @media(max-width:1100.8px) {
+    .cart-section {
+        padding-top: 130px;
+    }
     h1 {
         font-size: 52px;
         line-height: 64px;
@@ -658,6 +664,9 @@
 }
 
 @media(max-width:991.8px) {
+    .cart-section h2 {
+        margin-bottom: 10px;
+    }
     h1 {
         font-size: 42px;
         line-height: 52px;
