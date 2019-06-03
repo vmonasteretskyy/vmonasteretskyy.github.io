@@ -261,6 +261,7 @@ header {
     z-index: 3;
     bottom: 30px;
     transform: translateX(670px);
+    opacity: .5;
 }
 
 .main-top-section .vertical-btn span {
