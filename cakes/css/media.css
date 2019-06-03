@@ -370,6 +370,9 @@
 }
 
 @media(max-width:1200.8px) {
+    .ordering-section {
+        padding: 0 20px;
+    }
     .cart-table {
         padding: 0 20px;
     }
@@ -2206,12 +2209,18 @@
     .cart-section {
         padding-top: 80px;
     }
-    
 
+    #ordering-form .inp-field input[type='text'], #ordering-form .inp-field input[type='tel'], #ordering-form .inp-field input[type='email'] {
+        width: 100%;
+    }
 
+    #ordering-form .right-whbl {
+        padding: 7px;
+    }
 
-
-
+    #ordering-form .left-form-sect {
+        margin-bottom: 20px;
+    }
 
 
 

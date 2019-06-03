@@ -171,6 +171,15 @@ $(document).ready(function () {
         $('.phone-burger').removeClass('fix-burger');
     }
 
+
+
+    // ordering
+    $('.right-whbl .inp-field:nth-child(1)').click(function(){
+        $('#ordering-form .info-block').removeClass('show');
+    });
+    $('.right-whbl .inp-field:nth-child(2), .right-whbl .inp-field:nth-child(3)').click(function(){
+        $('#ordering-form .info-block').addClass('show');
+    });
     
 });
 
