@@ -1973,8 +1973,10 @@
     }
 
     .card-prod-section_bott-sect p {
-        font-size: 12px;
-        line-height: 15px;
+        /* font-size: 12px;
+        line-height: 15px; */
+        font-size: 14px;
+        line-height: 27px;
     }
 
     .prod-gen-list li {
