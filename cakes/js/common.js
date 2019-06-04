@@ -174,13 +174,28 @@ $(document).ready(function () {
 
 
     // ordering
-    $('.right-whbl .inp-field:nth-child(1)').click(function(){
+    $('.right-whbl .inp-field:nth-child(1)').click(function () {
         $('#ordering-form .info-block').removeClass('show');
     });
-    $('.right-whbl .inp-field:nth-child(2), .right-whbl .inp-field:nth-child(3)').click(function(){
+    $('.right-whbl .inp-field:nth-child(2), .right-whbl .inp-field:nth-child(3)').click(function () {
         $('#ordering-form .info-block').addClass('show');
     });
-    
+
+    // scroll to response
+    $(".resp-scroll").on("click", "a", function (event) {
+        //отменяем стандартную обработку нажатия по ссылке
+        event.preventDefault();
+
+        //забираем идентификатор бока с атрибута href
+        var id = $(this).attr('href'),
+
+            //узнаем высоту от начала страницы до блока на который ссылается якорь
+            top = $(id).offset().top;
+
+        //анимируем переход на расстояние - top за 1500 мс
+        $('body,html').animate({ scrollTop: top }, 1500);
+    });
+
 });
 
 $(document).on('scroll', function () {
