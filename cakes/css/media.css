@@ -447,7 +447,9 @@
 }
 
 @media(max-width:1150.8px) {
-
+    .cart-col.cart-footall p {
+        padding-left: 18%;
+    }
     .main-sect2 .text-block .title {
         font-size: 38px;
     }
@@ -669,6 +671,9 @@
 }
 
 @media(max-width:991.8px) {
+    .cart-col.cart-footall p {
+        padding-left: 17%;
+    }
     .cart-section h2 {
         margin-bottom: 10px;
     }
@@ -959,6 +964,9 @@
 }
 
 @media(max-width:950.8px) {
+    .cart-col.cart-footall p {
+        padding-left: 16%;
+    }
     .sticky-header.open-sthead .close-menupic {
         right: 10px;
     }
@@ -984,6 +992,9 @@
 }
 
 @media(max-width:850.8px) {
+    .cart-col.cart-footall p {
+        padding-left: 15%;
+    }
     .main-blog-slider .blog-slider .mblog-slide .right-block .text-left .title {
         font-size: 22px;
         line-height: 30px;
