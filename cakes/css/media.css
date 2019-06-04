@@ -2227,6 +2227,9 @@
 }
 
 @media(max-width:575.8px) {
+    .prod-gen-list {
+        margin-top: 20px;
+    }
     .main-top-section .vertical-btn {
         bottom: 30px;
         top: initial;
